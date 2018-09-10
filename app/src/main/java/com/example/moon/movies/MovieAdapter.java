@@ -1,10 +1,12 @@
+package com.example.moon.movies;
+
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
 class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieAdapterViewHoldr>{
-    @NonNull
+
     @Override
     public MovieAdapter.MovieAdapterViewHoldr onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         return null;
